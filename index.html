@@ -4,11 +4,12 @@
     <head>
         <meta charset="utf-8">
         <title>Survey Form</title>
+        <link rel="stylesheet" href="css/survey.css">
     </head>
 
     <body>
         <h1>Survey</h1>
-    <form action="https://us-central1-nucamp-production.cloudfunctions.net/post/formdata" method="post">
+    <form action="https://us-central1-nucamp-production.cloudfunctions.net/post/formdata" class="survey-form" method="post">
 <!-- Fieldset and Legend #1-->
     <fieldset>
         <legend>Your Information</legend>
@@ -40,7 +41,7 @@
             <input type="checkbox" name="pets" value="iguana" /> Iguana
         </div>
     </fieldset>
-        <input type="submit" />
+        <input type="submit" id="submit-btn" />
     </form>    
     </body>
 </html>
